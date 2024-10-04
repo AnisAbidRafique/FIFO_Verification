@@ -1,0 +1,4 @@
+top.sv fifo.sv -access +rwc
+-coverage U
+-covdut top
+-covoverwrite
