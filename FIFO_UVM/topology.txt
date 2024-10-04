@@ -1,0 +1,23 @@
+--------------------------------------------------------------------
+Name                       Type                     Size  Value     
+--------------------------------------------------------------------
+uvm_test_top               base_test                -     @2639     
+  fifo_env                 fifo_env                 -     @2699     
+    my_agent               fifo_agent               -     @2730     
+      fifo_driver          fifo_driver              -     @2890     
+        rsp_port           uvm_analysis_port        -     @3040     
+        seq_item_port      uvm_seq_item_pull_port   -     @2989     
+      fifo_monitor         fifo_monitor             -     @2861     
+        monitor_port       uvm_analysis_port        -     @2910     
+      fifo_sequencer       fifo_sequencer           -     @3019     
+        rsp_export         uvm_analysis_export      -     @3128     
+        seq_item_export    uvm_seq_item_pull_imp    -     @3676     
+        arbitration_queue  array                    0     -         
+        lock_queue         array                    0     -         
+        num_last_reqs      integral                 32    'd1       
+        num_last_rsps      integral                 32    'd1       
+      is_active            uvm_active_passive_enum  1     UVM_ACTIVE
+    my_scb                 fifo_scoreboard          -     @2760     
+      scoreboard_port      uvm_analysis_imp         -     @2810     
+--------------------------------------------------------------------
+
